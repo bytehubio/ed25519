@@ -1,4 +1,4 @@
-// swift-tools-version:3.1
+// swift-tools-version:5.9
 
 import PackageDescription
 
@@ -8,3 +8,23 @@ let package = Package(
         Target(name: "Ed25519", dependencies: ["CEd25519"])
     ]
 )
+
+let name: String = "Ed25519"
+
+let package = Package(
+    name: name,
+    products: [
+        .library(name: name, targets: [name]),
+    ],
+    dependencies: [],
+    targets: [
+        .target(
+            name: name,
+            dependencies: ["CEd25519"]
+        ),
+        .testTarget(
+            name: "Ed25519Tests", dependencies: ["Ed25519"]
+        ),
+    ]
+)
+
