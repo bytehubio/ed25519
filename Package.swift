@@ -2,17 +2,20 @@
 
 import PackageDescription
 
-let name: String = "Ed25519"
-
 let package = Package(
-    name: name,
+    name: "Ed25519",
     products: [
-        .library(name: name, targets: [name]),
+        .library(name: "CEd25519", targets: ["CEd25519"]),
+        .library(name: "Ed25519", targets: ["Ed25519"]),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: name,
+            name: "CEd25519",
+            dependencies: []
+        ),
+        .target(
+            name: "Ed25519",
             dependencies: ["CEd25519"]
         ),
         .testTarget(
