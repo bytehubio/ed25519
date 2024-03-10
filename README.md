@@ -1,8 +1,6 @@
 Ed25519 for Swift
 =====================
 
-![Swift](http://img.shields.io/badge/swift-3.0-brightgreen.svg) [![CircleCI](https://circleci.com/gh/vzsg/ed25519.svg?style=shield)](https://circleci.com/gh/vzsg/ed25519)
-
 
 This project is a Swift adaptation of the portable C [Ed25519](http://ed25519.cr.yp.to/)
 implementation available [here](https://github.com/orlp/ed25519).  
