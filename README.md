@@ -1,4 +1,4 @@
-Ed25519 for Swift 3.x
+Ed25519 for Swift
 =====================
 
 ![Swift](http://img.shields.io/badge/swift-3.0-brightgreen.svg) [![CircleCI](https://circleci.com/gh/vzsg/ed25519.svg?style=shield)](https://circleci.com/gh/vzsg/ed25519)
