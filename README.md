@@ -121,6 +121,5 @@ License
 
 The Swift library is released under the MIT license. See LICENSE for details.
 
-The C implementation is (c) 2015 Orson Peters, licensed under the permissive zlib license.  
-The original source code is not modified, only reorganized for SwiftPM consumption.  
+The C implementation is (c) 2015 Orson Peters, licensed under the permissive zlib license.
 See license.txt in CEd25519 for details.
